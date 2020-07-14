@@ -53,7 +53,7 @@
 
 
     <!-- Hero Image and Nav Bar  -->
-    <div class="hero-image">
+    <div class="hero-image-survey">
         <header id="masthead">
             <div class="nav-container">
                 <a href="https://dananobile.github.io/Portfolio/" id="logo">Home</a>
@@ -73,23 +73,24 @@
 
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>Welcome to</h1>
+                        <h3>Start Below</h3>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-md-12">
-                        <h2>Pet PAWtners </h2>
+                        <h1>Pet Owner Questionnaire</h1>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-md-12">
-                        <h3>Join our
-                            network of dog-lovers that connects pet owners and sitters in your community.</h3>
+                        <h2>Tell us more about your pet by completing the form. <br>We'll use this info to connect your
+                            pup
+                            with the perfect sitter!</h2>
                     </div>
                 </div>
-                <div class="intro-buttons">
+                <!-- <div class="intro-buttons">
                     <div class="row">
                         <div class="col-md-6">
                             <a href="" target="_blank" class="btn">I'm a Pet
@@ -101,7 +102,7 @@
                         </div>
 
                     </div>
-                </div>
+                </div> -->
 
 
             </div>
@@ -116,34 +117,38 @@
 
     <div class="container">
 
-        <h2>Pet Owner Questions</h2>
-        <hr>
+        <!-- <h2>Pet Owner Questions</h2>
+        <hr> -->
 
-        <h3><strong>About You</strong></h3>
-        <h4>Name (Required)</h4>
+        <!-- <h3><strong>Tell Us More About You!</strong></h3> -->
+        <hr>
+        <h3>Name (Required):</h3>
         <input type="text" id="name" class="form-control" required>
 
-        <h4>Link to a Photo Image of your Dog (Required)</h4>
+        <h3>Link to a Photo Image of your Dog (Required):</h3>
         <input type="text" id="photo" class="form-control" required>
 
-        <hr>
+        <!-- <hr> -->
 
-        <h3><strong>Question 1</strong></h3>
-        <h4>Confirm you are a dog owner.</h4>
-        <select class="chosen-select" id="q1">
+        <!-- Question 1 -->
+        <h3>Confirm you are a dog owner:</h3>
+        <select class="chosen-select form-control" id="q1">
             <option value="">Select</option>
             <option value="1">I'm a Dog Owner!</option>
         </select>
 
-        <h3><strong>Question 2</strong></h3>
-        <h4>Enter your City and State:</h4>
+        <!-- Question 2 -->
+        <h3>City:</h3>
 
 
-        <label for="city">City:</label>
-        <input type="text" id="city" name="city"><br><br>
-        <label for="state">State (Example: NY):</label>
+        <!-- <label for="city">City:</label> -->
+        <input type="text" id="city" class="form-control" name="city">
+        <!-- <label for="state">State (Example: NY):</label> -->
         <!-- <input type="text" id="state" name="state" maxlength="2"> -->
-        <select class="chosen-select" id="state">
+
+        <h3>State:</h3>
+        <select class="chosen-select form-control" id="state">
+            <option value=""> Select </option>
             <option value="AL"> AL </option>
             <option value="AK"> AK </option>
             <option value="AS"> AS </option>
@@ -203,16 +208,16 @@
         </select>
 
 
-        <h3><strong>Question 3</strong></h3>
-        <h4>Email</h4>
-        <label for="city">Email:</label>
-        <input type="email" id="email" name="email"><br><br>
+        <!-- Question 3 -->
+        <h3>Email:</h3>
+        <!-- <label for="city">Email:</label> -->
+        <input type="email" id="email" name="email" class="form-control">
 
 
 
-        <h3><strong>Question 4</strong></h3>
-        <h4>How long will you need a sitter?</h4>
-        <select class="chosen-select" id="q4">
+        <!-- Question 4 -->
+        <h3>How long will you need a sitter?</h3>
+        <select class="chosen-select form-control" id="q4">
             <option value="">Select</option>
             <option value="1">1 Day</option>
             <option value="2">1-5 Days</option>
@@ -220,20 +225,20 @@
         </select>
 
 
-        <h3><strong>Question 5</strong></h3>
-        <h4>How Many Dogs?</h4>
-        <select class="chosen-select" id="q5">
-            <option value=""></option>
+        <!-- Question 5 -->
+        <h3>How Many Dogs?</h3>
+        <select class="chosen-select form-control" id="q5">
+            <option value="">Select</option>
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
         </select>
 
 
-        <h3><strong>Question 6</strong></h3>
-        <h4>What is your dog's size?</h4>
-        <select class="chosen-select" id="q6">
-            <option value=""></option>
+        <!-- Question 6 -->
+        <h3>What is your dog's size?</h3>
+        <select class="chosen-select form-control" id="q6">
+            <option value="">Select</option>
             <option value="1">Small (Under 20 lbs)</option>
             <option value="2">Medium (Under 50 lbs)</option>
             <option value="3">Large (over 50lbs)
@@ -241,10 +246,10 @@
         </select>
 
 
-        <h3><strong>Question 7</strong></h3>
-        <h4>What kind of temperment does your dog have?</h4>
-        <select class="chosen-select" id="q7">
-            <option value=""></option>
+        <!-- Question 7 -->
+        <h3>What kind of temperment does your dog have?</h3>
+        <select class="chosen-select form-control id=" q7">
+            <option value="">Select</option>
             <option value="1">Playful & Active</option>
             <option value="2">Calm & Lazy</option>
             <option value="3">Timid & Shy</option>
