@@ -216,7 +216,6 @@ a:hover {
 .hero-image-survey{
     
         background-image: linear-gradient(rgba(245, 241, 241, 0.5), rgba(250, 248, 248, 0.5)), url("../assets/images/owner-survey.jpg") ;
-        
         height: 40%;
         width: 100%;
         background-position: center;
@@ -231,13 +230,44 @@ a:hover {
         
     } 
 
+.survey{
+    background-color: rgb(9, 9, 77);
+    max-width: 70%;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
+.survey-box{
+    background-color: white;
+    /* margin-top: 150px; */
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 50px;
+    padding-top: 50px;    
+    padding-bottom: 50px; 
+  
+}
 
+#paw-prints{
+    max-height: 100px;
+    /* margin-top: 50px; */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    
+    
+   
+}
 .form-control{
-    width: 20%;
+    width: 80%;
     margin-bottom: 30px;
 }
 
+.btn{
+    max-width: 20%;
+}
 
 /* Footer  */
 footer {
