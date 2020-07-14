@@ -173,6 +173,7 @@ a:hover {
 
 
 
+
 .btn:hover{
     background-color:rgb(110, 108, 107);
     border: 0px none;
@@ -198,8 +199,6 @@ a:hover {
     padding-right: 15px; */
 }
 
-
-
 #about-text{
     margin-left: 20px;
 }
@@ -218,6 +217,7 @@ a:hover {
     
         background-image: linear-gradient(rgba(245, 241, 241, 0.5), rgba(250, 248, 248, 0.5)), url("../assets/images/owner-survey.jpg") ;
        min-height: 40%;
+
         width: 100%;
         background-position: center;
         background-repeat: no-repeat;
@@ -234,6 +234,7 @@ a:hover {
 .survey{
     background-color: rgb(9, 9, 77);
     min-width: 70%;
+
     margin-top: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -265,7 +266,6 @@ a:hover {
 }
 
 
-
 /* Footer  */
 footer {
     background-color: white;
@@ -295,6 +295,7 @@ footer {
     position: fixed;
     z-index: 99;
     width: 100%;
+
   }
   
   /* Hide the links inside the navigation menu (except for logo/home) */
@@ -316,6 +317,7 @@ footer {
     background: #efefef;
     color: rgb(110, 108, 107);
     padding-top: 20px;
+
     display: block;
     position: absolute;
     right: 0;
@@ -344,6 +346,7 @@ footer {
   
   #logo{
     width: 100%;
+
     text-align: left;     
     background-color: #efefef;  
   }
@@ -406,7 +409,5 @@ img{
     margin-right: 15px;
     padding-right: 10px;
 }
-
-
 
 }
