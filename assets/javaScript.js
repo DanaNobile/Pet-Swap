@@ -17,3 +17,44 @@ function hideMenu() {
     }
 }
 
+
+// Team //
+
+$(document).ready(function () {
+    // $(".cf_onclick").click(function () {
+    //     $(".cf2 img.top").toggleClass("transparent");
+    //     // this.toggleClass("transparent");
+    //     $('.team-about').show()
+
+
+    // });
+
+    $(".cf_onclick").click(function () {
+        $(".cf2 img.top1").toggleClass("transparent");
+        // this.toggleClass("transparent");
+        $('.team-about').show()
+
+
+
+
+    });
+
+    $("#cf_onclick").click(function () {
+        timesClicked++;
+        var timesClicked = 0;
+        if (timesClicked > 1) {
+            //run second function
+        } else {
+            $(".cf2 img.1").toggleClass("transparent");
+            $('.team-about').hide()
+            //run first function
+        }
+
+    })
+
+
+});
+
+$(document).ready(function () {
+    $('.team-about').hide();
+});

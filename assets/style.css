@@ -45,6 +45,17 @@ h5{
     margin-top: 10px;
 }
 
+h6{
+    position: absolute;
+    font-family: 'Carter One';
+    color: rgb(9, 9, 77);
+    text-align: center;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 p {
    color: rgb(9, 9, 77);
 
@@ -264,6 +275,43 @@ a:hover {
     margin-bottom: 30px;
 }
 
+/* Meet the Team  */
+
+.cf2 {
+    position:relative;
+    height:281px;
+    width:450px;
+    margin:0 auto;
+  }
+  .cf2 img {
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .cf2 img.transparent {
+  opacity:0;
+  }
+ 
+  .cf_onclick {
+  cursor:pointer;
+  }
+
+  .team-pic{
+      display: flex;
+      justify-content: center;
+      width: 20%;
+     
+  }
+
+  .team-click{
+      text-align: center;
+  }
+
+
 
 
 /* Footer  */
@@ -406,6 +454,7 @@ img{
     margin-right: 15px;
     padding-right: 10px;
 }
+
 
 
 
