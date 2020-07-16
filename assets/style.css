@@ -182,8 +182,6 @@ a:hover {
 
 /* About  */
 
-
-
 .container-about{
     width: 100%;
     text-align: center;
@@ -223,7 +221,6 @@ a:hover {
     margin-right: 25px; 
 }
 .pack{
-
     padding-top: 50px;
     padding-right: 50px;
     padding-left: 50px; 
@@ -239,11 +236,33 @@ a:hover {
 #team-text{
     text-align: center;
     width: 100%; 
-display: flex;
-    justify-content: center; 
-  
-    
+    display: flex;
+    justify-content: center;   
 }
+
+/* Contact  */
+
+.container-contact{
+    width: 100%;
+    text-align: center;
+   display: flex;
+   flex-wrap: wrap;
+    justify-content: center;
+    padding-top:50px;
+    padding-bottom: 50px;
+    margin-left: 25px;
+    margin-right: 25px; 
+
+}
+
+#contact-image{
+    max-width:30%;
+    max-height: 30%;
+}
+
+
+
+
 
 /* Survey  */
 
