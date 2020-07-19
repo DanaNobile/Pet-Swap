@@ -377,9 +377,10 @@
                         // creates an "LI" element to put sitter inside
                         const li = HTMLLIElement = document.createElement('li');
                             //create the name, email, and image tags to put inside the li for each sitter we get back
+                            li.className = 'result-item';
                             li.innerHTML = `<h2 id="match-name-${i}">${sitter.name}</h2>` +
                                 `<h2 id="match-email-${i}">${sitter.email}</h2>` +
-                                `<img id="match-img-${i}" src="${sitter.photo}" alt=""><br />`;
+                                `<img id="match-img-${i}" src="${sitter.photo}" alt=""><br /><br /><hr />`;
 
                             //insert the list item into the list ul to build the list of sitters to display in the 
                             //modal
