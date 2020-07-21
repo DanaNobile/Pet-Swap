@@ -36,37 +36,37 @@ require("./routes/htmlRoutes")(app);
 // The below code effectively "starts" our server
 // ==============================================================================
 
-db.sequelize.sync().then(function () {
-  db.Owner.create(
-    {
-      name: "Diana",
-      photo: "",
-      city: "Kansas",
-      state: "KS",
-      email: "diana@earthlink.com",
-      duration: "3",
-      quantity: 3,
-      size: "3",
-      temperament: "3",
+// db.sequelize.sync().then(function () {
+  // db.Owner.create(
+  //   {
+  //     name: "Diana",
+  //     photo: "",
+  //     city: "Kansas",
+  //     state: "KS",
+  //     email: "diana@earthlink.com",
+  //     duration: "3",
+  //     quantity: 3,
+  //     size: "3",
+  //     temperament: "3",
 
-    },
-  ).then();
+  //   },
+  // ).then();
 
 
-  db.Sitter.create(
-    {
-      name: "Diana",
-      photo: "",
-      city: "Kansas",
-      state: "KS",
-      email: "diana@earthlink.com",
-      duration: "3",
-      quantity: 3,
-      size: "3",
-      temperament: "3",
+  // db.Sitter.create(
+  //   {
+  //     name: "Diana",
+  //     photo: "",
+  //     city: "Kansas",
+  //     state: "KS",
+  //     email: "diana@earthlink.com",
+  //     duration: "3",
+  //     quantity: 3,
+  //     size: "3",
+  //     temperament: "3",
 
-    },
-  ).then();
+  //   },
+  // ).then();
 
 
   app.listen(PORT, function () {
