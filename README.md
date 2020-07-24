@@ -10,11 +10,11 @@ The web application is deployed on heroku: https://pet-pawtners.herokuapp.com/.
 The way this website works is by taking the user information that is input by the owner of the dog. The information asked for are name, photo link of dog, city, state, email, duration of stay, size of the dog, number of dogs, and lastly the dog's characteristics. It then stores that information in the database, then finding a pet sitter matches in the sitter database and returning those matches to the screen. 
 
 ![Owner](/assets/images/owner-questions.gif)
-
+![Sitter](/assets/images/sitter-questions.gif)
 
 The front end form post the information to the API route on the back end. The API route will then parse the information into a sequelize object and then using sequelize functions to store the object in the database. Query functions are used to retrieve matches from that same database (MySQL) where if all criteria entered matches whats in the database. It will then return that list of matches as json to the front end. 
-
-![Sitter](/assets/images/sitter-questions.gif)
+Here's a quick snippet of the API code and how it processes: 
+![API code](/assets/images/API.gif)
 
 The front end in turn will parse the json list and will dynamically generate a HTML list of matches. Basically, turn that code into HTML readable text as seen in the gifs above. 
 
